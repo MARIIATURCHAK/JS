@@ -3,3 +3,9 @@ function rectangleArea(aNum, bNum) {
     return aNum * bNum;
 }
 rectangleArea()
+
+
+
+
+// let result = rectangleArea(10, 15);
+// console.log(result);
