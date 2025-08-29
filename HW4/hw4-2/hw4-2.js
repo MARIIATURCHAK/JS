@@ -1,11 +1,11 @@
 // створити функцію, яка обчислює та повертає площу кола з радіусом r
-function rectangleArea(radius) {
+function circleArea(radius) {
     return Math.PI * radius * radius;
 }
-rectangleArea()
+circleArea()
 
 
 
 
-// let result = rectangleArea(5);
+// let result = circleArea(5);
 // console.log(result);
