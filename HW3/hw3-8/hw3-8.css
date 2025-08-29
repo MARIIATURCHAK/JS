@@ -1,0 +1,18 @@
+.users-box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.user-block{
+    width: 48%;
+    margin-bottom: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.18);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.address-block{
+    padding-left: 50px;
+}
