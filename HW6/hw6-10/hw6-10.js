@@ -1,13 +1,4 @@
-// описати колоду карт (від 6 до туза без джокерів).
-// Більшу частину колоди можна описати з використанням циклу
-// Після опису, використовуючи функції масивів:
-// – знайти піковий туз
-// – всі шістки
-// – всі червоні карти
-// – всі буби
-// – всі трефи від 9 та більше
-
-const suits = ['spade', 'diamond', 'heart', 'clubs'];
+const suits = ['spade', 'diamond', 'heart', 'club'];
 const values = ['6','7','8','9','10','jack','queen','king','ace'];
 const cards =[];
 for (const suit of suits) {
@@ -35,7 +26,7 @@ console.log(filterRed);
 let filterDiamond = cards.filter(card => card.cardSuit === 'diamond');
 console.log(filterDiamond);
 
-let filterClubs = cards.filter(card => card.cardSuit === 'clubs' && );
+let filterClubs = cards.filter(card => card.cardSuit === 'club' &&  values.indexOf(card.value) >= values.indexOf('9'));
 console.log(filterClubs);
 
 
