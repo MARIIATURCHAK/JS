@@ -80,6 +80,5 @@ function findCinderella(girls, prince) {
     }
     return null;
 }
-
 const cinderella = findCinderella(girls, prince);
 console.log(cinderella);
