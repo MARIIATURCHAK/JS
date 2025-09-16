@@ -1,0 +1,13 @@
+#carts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+.cartContainer{
+        width: 30%;
+        border: 3px solid rgba(128, 128, 128, 0.76);
+        margin-top: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
